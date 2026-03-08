@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Products</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<h1>Products</h1>
+
+<div id="product-list"></div>
+
+<a href="cart.html">View Cart</a>
+
+<script src="js/products.js"></script>
+
+<script src="js/cart.js"></script>
+
+<script>
+
+const productList = document.getElementById("product-list");
+
+products.forEach(p => {
+
+productList.innerHTML += `
+
+<div class="product">
+
+<img src="${p.image}">
+
+<h3>${p.name}</h3>
+
+<p>₹${p.price}</p>
+
+<button onclick="addToCart(${p.id})">
+
+Add To Cart
+
+</button>
+
+</div>
+
+`;
+
+});
+
+</script>
+
+</body>
+</html>
