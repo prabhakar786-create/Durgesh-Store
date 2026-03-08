@@ -24,10 +24,11 @@ text += i.name + " ₹" + i.price + "%0A";
 
 });
 
-let store = "91XXXXXXXXXX";
+let store = "919415916230";
 
 let url = "https://wa.me/" + store + "?text=" + text;
 
 window.open(url);
 
 }
+
