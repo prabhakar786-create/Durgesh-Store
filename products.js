@@ -18,9 +18,9 @@ const products = [
 { id:14, name:"Maggi Noodles", price:14, image:"maggi.jpg" },
 { id:15, name:"Pasta", price:70, image:"pasta.jpg" },
 
-{ id:16, name:"Lux Soap", price:35, image:"images/soap.jpg" },
-{ id:17, name:"Lifebuoy Soap", price:30, image:"images/lifebuoy.jpg" },
-{ id:18, name:"Dove Soap", price:65, image:"images/dove.jpg" },
+{ id:16, name:"Lux Soap", price:35, image:"soap.jpg" },
+{ id:17, name:"Lifebuoy Soap", price:30, image:"lifebuoy.jpg" },
+{ id:18, name:"Dove Soap", price:65, image:"dove.jpg" },
 
 { id:19, name:"Surf Excel", price:110, image:"surf.jpg" },
 { id:20, name:"Washing Powder", price:90, image:detergent.jpg" },
@@ -40,4 +40,5 @@ const products = [
 { id:30, name:"Tomato 1kg", price:35, image:"tomato.jpg" }
 
 ];
+
 
